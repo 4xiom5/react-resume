@@ -120,5 +120,12 @@
       "language": "English",
       "fluency": "B1"
     }
-  ]
+  ],
+  "meta": {
+    "work": "Work Experience",
+    "education": "Education",
+    "skills": "Skills",
+    "langs": "Languages",
+    "contact": "Contact"
+  }
 }

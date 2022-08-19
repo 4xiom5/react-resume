@@ -1,8 +1,8 @@
 import SidebarSection from "./SidebarSection";
 
-export default function Languages({ languages }) {
+export default function Languages({ languages, title }) {
   return (
-    <SidebarSection title="Language">
+    <SidebarSection title={title}>
       <div className="flex flex-col divide-y">
         {languages.map((l, i) => (
           <>

@@ -1,8 +1,8 @@
 import SidebarSection from "./SidebarSection";
 
-export default function Skills({ skills }) {
+export default function Skills({ title, skills }) {
   return (
-    <SidebarSection title="Skills">
+    <SidebarSection title={title}>
       {skills.map(({ name, keywords }) => (
         <>
           <div className="font-semibold my-0.5">{name}</div>

@@ -2,7 +2,7 @@ import { icon } from "@fortawesome/fontawesome-svg-core";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import SidebarSection from "./SidebarSection";
 
-export default function Contact({ email, phone, profiles }) {
+export default function Contact({ email, phone, profiles, title }) {
   let contacts = profiles.map(({ network, url }) => ({
     icon: ["fab", network.toLowerCase()],
     value: (<a href={url}>{url}</a>)
@@ -23,7 +23,7 @@ export default function Contact({ email, phone, profiles }) {
   }
 
   return (
-    <SidebarSection title="Contact">
+    <SidebarSection title={title}>
       {contacts.map(({ icon, value }) => (
         <div className="flex flex-col">
           <div className="flex items-center gap-x-1">
