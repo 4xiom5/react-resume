@@ -1,17 +1,18 @@
+import SidebarSection from "./SidebarSection";
+
 export default function Skills({ skills }) {
   return (
-    <div>
-      <div className="uppercase text-2xl font-light">SKILLS</div>
+    <SidebarSection title="Skills">
       {skills.map(({ name, keywords }) => (
         <>
-          <div className="font-bold">{name}</div>
-          <div className="flex flex-wrap">
+          <div className="font-semibold my-0.5">{name}</div>
+          <div className="flex flex-wrap gap-2">
             {keywords.map(k => (
-              <div className="bg-slate-200 p-2">{k}</div>
+              <div className="bg-slate-200 p-2 rounded-lg">{k}</div>
             ))}
           </div>
         </>
       ))}
-    </div>
+    </SidebarSection>
   );
 }

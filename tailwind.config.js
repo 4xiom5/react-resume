@@ -11,6 +11,9 @@ module.exports = {
       height: {
         a4: '297mm',
       },
+      fontFamily: {
+        'sans': ['OpenSans', 'sans-serif'] 
+      },
     },
   },
   plugins: [],

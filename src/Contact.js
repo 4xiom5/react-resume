@@ -1,38 +1,37 @@
 import { icon } from "@fortawesome/fontawesome-svg-core";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import SidebarSection from "./SidebarSection";
 
 export default function Contact({ email, phone, profiles }) {
-  let contacts = []
+  let contacts = profiles.map(({ network, url }) => ({
+    icon: ["fab", network.toLowerCase()],
+    value: (<a href={url}>{url}</a>)
+  }))
+
   if (email) {
-    contacts.push({
+    contacts.unshift({
       icon: "at",
       value: email
     })
   }
 
   if (phone) {
-    contacts.push({
+    contacts.unshift({
       icon: "phone",
       value: phone
     })
   }
 
-  contacts = [...contacts, ...profiles.map(({network, url}) => ({
-    icon: ["fab", network.toLowerCase()],
-    value: url
-  }))]
-
   return (
-    <div>
-      <div className="uppercase text-2xl font-light">Contact</div>
-      <div>
-        {contacts.map(({icon, value}) => (
-          <div className="flex">
+    <SidebarSection title="Contact">
+      {contacts.map(({ icon, value }) => (
+        <div className="flex flex-col">
+          <div className="flex items-center gap-x-1">
             <FontAwesomeIcon icon={icon} />
             <div>{value}</div>
           </div>
-        ))}
-      </div>
-    </div>
+        </div>
+      ))}
+    </SidebarSection>
   )
 }
