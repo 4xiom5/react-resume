@@ -16,7 +16,7 @@ function datesToYearRange(startDate, endDate) {
 export default function DatedListSection({ data, title }) {
   return (
     <div className="flex flex-col">
-      <div className="uppercase text-2xl font-light border-b border-slate-200 mb-1">{title}</div>
+      <div className="uppercase text-2xl font-light border-b border-slate-200 mb-2">{title}</div>
       <div className="grid grid-flow-row grid-cols-[min-content_auto]">
           {data.map(({ name, position, area, location, startDate, endDate, summary }) => (
             <>
@@ -24,7 +24,7 @@ export default function DatedListSection({ data, title }) {
               <div>
                 <div className="flex text-xl font-bold">
                   <div>{position}</div>
-                  {area && <div className="font-normal">, {area}</div>}
+                  {area && <div className="font-normal">{", " + area}</div>}
                 </div>
                 <div className="text-lg font-semibold">{name}</div>
                 <div className="text-md font-light">{location}</div>

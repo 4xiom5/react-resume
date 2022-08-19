@@ -7,7 +7,7 @@ import Skills from "./Skills";
 export default function Page({ basics, skills, languages, work, education, meta }) {
 
   return (
-    <div className="w-a4 h-a4 mx-auto my-4 shadow-2xl text-slate-800 flex">
+    <div className="w-a4 h-a4 mx-auto shadow-2xl text-slate-800 flex">
       <div className="w-1/3 h-full p-4 bg-slate-100 flex flex-col justify-between">
         <Avatar {...basics} />
         <Skills title={meta.skills} skills={skills} />
