@@ -1,0 +1,119 @@
+{
+  "basics": {
+    "name": "Aaron Visser",
+    "label": "SysAdmin",
+    "image": "./avatar.jpg",
+    "summary": "A back end developer with 5 years of experience in building large-scale applications and pivotal contributions to the architecture of open-source projects XYZ & RDJ is eager to use his technical skills and vast experience in building Java-based applications at ABC company’s Beta project.",
+    "email": "aaron-visser@example.com",
+    "phone": "12344678901",
+    "profiles": [
+      {
+        "network": "Linkedin",
+        "url": "https://linkedin.com/"
+      },
+      {
+        "network": "Github",
+        "url": "https://github.com/"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Flix Brewhouse",
+      "position": "Systems Administrator",
+      "location": "Scheinstadt, Germany",
+      "summary": "Worked on a small team responsible for all aspects of the 'brew house', the heart of the Flix movie theater and restaurant.",
+      "startDate": "2020-02-01"
+    },
+    {
+      "name": "Honeywell",
+      "position": "Network Engineer",
+      "location": "Factice, France",
+      "summary": "Responsible for all aspects of network and security operations at the Honeywell Garrett Manufacturing facility.",
+      "startDate": "2019-02-07",
+      "endDate": "2020-01-01"
+    },
+    {
+      "name": "Diamo",
+      "position": "Junior Software Engineer",
+      "location": "Paris, France",
+      "summary": "Designed and developed many applications using Ruby",
+      "startDate": "2018-01-05",
+      "endDate": "2019-02-01"
+    },
+    {
+      "name": "Haxonit",
+      "position": "Software Engineer Intern",
+      "location": "Paris, France",
+      "summary": "Worked on a project with universal studio marketing team with the awesome team to constantly researching and on their existing iOS version.",
+      "startDate": "2017-09-14",
+      "endDate": "2017-12-10"
+    }
+  ],
+  "education": [
+    {
+      "studyType": "MSc",
+      "area": "Computer Science",
+      "institution": "Hamburg University of Applied Sciences",
+      "location": "Hamburg, Germany",
+      "startDate": "2015-09-12",
+      "endDate": "2017-06-17"
+    },
+    {
+      "studyType": "BSc",
+      "area": "Mathematics and Computer Science",
+      "institution": "École polytechnique",
+      "location": "Palaiseau, France",
+      "startDate": "2012-09-17",
+      "endDate": "2015-06-12"
+    }
+  ],
+  "skills": [{
+    "name": "Programming",
+    "keywords": [
+      "Python",
+      "Ruby",
+      "Scala",
+      "Java"
+    ]
+  },{
+    "name": "Databases",
+    "keywords": [
+      "MySQL",
+      "SQL Server",
+      "Elastic Search"
+    ]
+  },
+  {
+    "name": "DevOps & Infrastructure",
+    "keywords": [
+      "GitHub Actions",
+      "CircleCI",
+      "Docker",
+      "Docker Compose"
+    ]
+  }, 
+  {
+    "name": "System",
+    "keywords": [
+      "Linux",
+      "Microsoft AD",
+      "VMware",
+      "Cisco NSO"
+    ]
+  }],
+  "languages": [
+    {
+      "language": "French",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "German",
+      "fluency": "C2"
+    },
+    {
+      "language": "English",
+      "fluency": "B1"
+    }
+  ]
+}
