@@ -48,6 +48,14 @@
       "summary": "Worked on a project with universal studio marketing team with the awesome team to constantly researching and on their existing iOS version.",
       "startDate": "2017-09-14",
       "endDate": "2017-12-10"
+    },
+    {
+      "name": "ColarV",
+      "position": "Freelance Software Engineer",
+      "location": "Nice, France",
+      "summary": "",
+      "startDate": "2016-08-10",
+      "endDate": "2016-11-10"
     }
   ],
   "education": [
@@ -61,7 +69,7 @@
     },
     {
       "studyType": "BSc",
-      "area": "Mathematics and Computer Science",
+      "area": "Mathematics",
       "institution": "École polytechnique",
       "location": "Palaiseau, France",
       "startDate": "2012-09-17",

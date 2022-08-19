@@ -3,7 +3,7 @@ export default function Avatar({ name, label, image }) {
     <div>
       <img
         src={image}
-        className="rounded-full mb-4"
+        className="rounded-full p-2"
       />
       <div>
         <div className="text-4xl font-bold">

@@ -28,7 +28,7 @@ export default function Contact({ email, phone, profiles }) {
         <div className="flex flex-col">
           <div className="flex items-center gap-x-1">
             <FontAwesomeIcon icon={icon} />
-            <div>{value}</div>
+            <div className="text-md">{value}</div>
           </div>
         </div>
       ))}
