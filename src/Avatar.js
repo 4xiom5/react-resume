@@ -4,6 +4,7 @@ export default function Avatar({ name, label, image }) {
       <img
         src={image}
         className="rounded-full p-2"
+        alt="Avatar"
       />
       <div>
         <div className="text-4xl font-bold">
