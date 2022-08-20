@@ -4,7 +4,7 @@ import SidebarSection from "./SidebarSection";
 export default function Contact({ email, phone, profiles, title }) {
   let contacts = profiles.map(({ network, url }) => ({
     icon: ["fab", network.toLowerCase()],
-    value: (<a href={url}>{url}</a>)
+    value: url
   }))
 
   if (email) {
