@@ -4,8 +4,11 @@ function datesToYearRange(startDate, endDate) {
   let yearRange = startYear.toString();
 
   if (endDate) {
-    const endYear = new Date(endDate).getFullYear()
-    yearRange += "-" + endYear;
+    const endYear = new Date(endDate).getFullYear();
+
+    if (endYear !== startYear) {
+      yearRange += "-" + endYear;
+    }
   } else {
     yearRange += "-NOW";
   }

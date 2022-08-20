@@ -23,14 +23,14 @@ export default function Contact({ email, phone, profiles, title }) {
 
   return (
     <SidebarSection title={title}>
-      {contacts.map(({ icon, value }) => (
-        <div className="flex flex-col">
+      <div className="flex flex-col gap-y-1">
+        {contacts.map(({ icon, value }) => (
           <div className="flex items-center gap-x-1">
             <FontAwesomeIcon icon={icon} />
             <div className="text-md">{value}</div>
           </div>
-        </div>
-      ))}
+        ))}
+      </div>
     </SidebarSection>
   )
 }
